@@ -1,4 +1,4 @@
-import 'package:flutterexam/core/error/app_error.dart';
+import 'package:directory/core/error/app_error.dart';
 import 'package:fpdart/fpdart.dart';
 
 abstract class BaseUseCase<T, Params> {

@@ -1,7 +1,7 @@
-import 'package:flutterexam/core/error/app_error.dart';
-import 'package:flutterexam/features/dashboard/data/services/directory_service.dart';
-import 'package:flutterexam/features/dashboard/domain/entities/directory_entity.dart';
-import 'package:flutterexam/features/dashboard/domain/repositories/directory_repository.dart';
+import 'package:directory/core/error/app_error.dart';
+import 'package:directory/features/dashboard/data/dashboard_data.dart';
+import 'package:directory/features/dashboard/data/services/directory_service.dart';
+import 'package:directory/features/dashboard/domain/dashboard_domain.dart';
 import 'package:fpdart/fpdart.dart';
 
 class DirectoryRepositoryImpl implements DirectoryRepository {

@@ -1,5 +1,6 @@
 import 'package:dart_mappable/dart_mappable.dart';
-import 'package:flutterexam/features/dashboard/domain/entities/directory_entity.dart';
+import 'package:directory/features/dashboard/domain/dashboard_domain.dart';
+import 'package:directory/features/dashboard/domain/entities/directory_entity.dart';
 
 part 'directory_model.mapper.dart';
 

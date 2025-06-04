@@ -1,7 +1,8 @@
+import 'package:directory/core/gen/assets.gen.dart';
+import 'package:directory/features/dashboard/domain/dashboard_domain.dart';
+import 'package:directory/features/dashboard/presentation/dashboard_presentation.dart';
+import 'package:directory/features/dashboard/presentation/widgets/directory_item_widget.dart';
 import 'package:flutter/material.dart';
-import 'package:flutterexam/core/gen/assets.gen.dart';
-import 'package:flutterexam/features/dashboard/domain/entities/directory_entity.dart';
-import 'package:flutterexam/features/dashboard/presentation/widgets/directory_item_widget.dart';
 
 class DirectoryCardWidget extends StatelessWidget {
   final DirectoryStatsEntity? directory;

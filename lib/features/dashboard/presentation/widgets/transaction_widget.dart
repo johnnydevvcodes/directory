@@ -1,5 +1,5 @@
+import 'package:directory/features/dashboard/domain/dashboard_domain.dart';
 import 'package:flutter/material.dart';
-import 'package:flutterexam/features/dashboard/domain/entities/directory_entity.dart';
 
 class TransactionWidget extends StatelessWidget {
   final List<TransactionEntity> transactions;

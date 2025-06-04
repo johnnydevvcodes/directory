@@ -1,10 +1,7 @@
+import 'package:directory/features/dashboard/domain/dashboard_domain.dart';
+import 'package:directory/features/dashboard/presentation/dashboard_presentation.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:flutterexam/features/dashboard/domain/entities/directory_entity.dart';
-import 'package:flutterexam/features/dashboard/presentation/bloc/directory_cubit.dart';
-import 'package:flutterexam/features/dashboard/presentation/bloc/directory_state.dart';
-import 'package:flutterexam/features/dashboard/presentation/widgets/directory_card_widget.dart';
-import 'package:flutterexam/features/dashboard/presentation/widgets/transaction_widget.dart';
 import 'package:gap/gap.dart';
 import 'package:skeletonizer/skeletonizer.dart';
 

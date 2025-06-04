@@ -1,4 +1,4 @@
-name: flutterexam
+name: directory
 description: "A new Flutter project."
 publish_to: "none"
 version: 1.0.0+1
@@ -27,7 +27,7 @@ dev_dependencies:
   flutter_gen_runner: any
   mocktail: any
   bloc_test: any
-  analyzer: ^7.3.0
+  analyzer: ^6.4.1
 
 flutter_gen:
   output: lib/core/gen/

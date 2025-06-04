@@ -1,10 +1,8 @@
 import 'package:bloc_test/bloc_test.dart';
+import 'package:directory/core/error/app_error.dart';
+import 'package:directory/features/dashboard/domain/dashboard_domain.dart';
+import 'package:directory/features/dashboard/presentation/dashboard_presentation.dart';
 import 'package:flutter_test/flutter_test.dart';
-import 'package:flutterexam/core/error/app_error.dart';
-import 'package:flutterexam/features/dashboard/domain/entities/directory_entity.dart';
-import 'package:flutterexam/features/dashboard/domain/usecases/get_directory_use_case.dart';
-import 'package:flutterexam/features/dashboard/presentation/bloc/directory_cubit.dart';
-import 'package:flutterexam/features/dashboard/presentation/bloc/directory_state.dart';
 import 'package:fpdart/fpdart.dart';
 import 'package:mocktail/mocktail.dart';
 

@@ -1,9 +1,10 @@
 import 'dart:convert';
 import 'dart:developer';
 
+import 'package:directory/core/error/app_error.dart';
+import 'package:directory/features/dashboard/data/dashboard_data.dart';
+import 'package:directory/features/dashboard/data/models/directory_model.dart';
 import 'package:flutter/services.dart' show rootBundle;
-import 'package:flutterexam/core/error/app_error.dart';
-import 'package:flutterexam/features/dashboard/data/models/directory_model.dart';
 import 'package:fpdart/fpdart.dart';
 
 abstract class DirectoryService {
