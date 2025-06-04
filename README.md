@@ -1,6 +1,6 @@
 # Directory App
 
-<img src="https://github.com/user-attachments/assets/41c422ae-1b1b-4528-8fca-d603bcbe62e5" width="375" height="700"/>
+<img src="https://github.com/user-attachments/assets/41c422ae-1b1b-4528-8fca-d603bcbe62e5" width="375" height="720"/>
 
 A clean architecture Flutter app to view and manage directory data.
 
