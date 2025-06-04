@@ -31,7 +31,6 @@ This app follows a strict **feature-first clean architecture**:
 ## Best Practices
 - Strongly typed models and entities.
 - No use of `any` or dynamic types.
-- One export per file.
 - Follows SOLID and clean code principles.
 - All features are modular and testable.
 - Unit and widget tests included for Cubit and UI.
