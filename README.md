@@ -35,6 +35,7 @@ This app follows a strict **feature-first clean architecture**:
 - Follows SOLID and clean code principles.
 - All features are modular and testable.
 - Unit and widget tests included for Cubit and UI.
+- Uses FVM to manage Flutter SDK usage
 
 ## Getting Started
 1. Run `flutter pub get` to install dependencies.
@@ -42,16 +43,13 @@ This app follows a strict **feature-first clean architecture**:
    ```yaml
    flutter:
      assets:
-       - assets/data/my_directory.json
-       - assets/plantations.svg
-       - assets/cp.svg
-       - assets/transport.svg
-       - assets/doc.svg
+       - assets/data/
+       - assets/
    ```
-3. Run the app: `flutter run`
+3. Run the app: `fvm flutter run`
 
 ## Testing
-- Run all tests with: `flutter test`
+- Run all tests with: `fvm flutter test`
 
 ---
 
