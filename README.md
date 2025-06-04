@@ -1,16 +1,56 @@
-# flutterexam
+# Directory App
 
-A new Flutter project.
+A clean architecture Flutter app to view and manage directory data.
+
+## Features
+- Fetches fresh data from a local JSON data source (`assets/data/my_directory.json`).
+- Displays directory statistics and recent transactions.
+- Modern, modular, and testable codebase.
+
+## Architecture
+This app follows a strict **feature-first clean architecture**:
+
+- **Presentation Layer**: UI, screens, widgets, and state management (Cubit/Bloc). Located in `lib/features/dashboard/presentation/`.
+- **Domain Layer**: Business logic, use cases, and entities. Located in `lib/features/dashboard/domain/`.
+- **Data Layer**: Data sources, repositories, models, and services. Located in `lib/features/dashboard/data/`.
+
+### State Management
+- Uses `flutter_bloc` and Cubit for state management.
+- UI reacts to all possible states: loading, data, and error.
+
+### Dependency Injection
+- Uses `flutter_modular` for dependency injection and routing.
+- All dependencies are provided in `lib/app_module.dart`.
+
+### Data Source
+- All data is loaded from `assets/data/my_directory.json`.
+- SVG icons are loaded from the `assets/` directory.
+
+## Best Practices
+- Strongly typed models and entities.
+- No use of `any` or dynamic types.
+- One export per file.
+- Follows SOLID and clean code principles.
+- All features are modular and testable.
+- Unit and widget tests included for Cubit and UI.
 
 ## Getting Started
+1. Run `flutter pub get` to install dependencies.
+2. Ensure the following in your `pubspec.yaml`:
+   ```yaml
+   flutter:
+     assets:
+       - assets/data/my_directory.json
+       - assets/plantations.svg
+       - assets/cp.svg
+       - assets/transport.svg
+       - assets/doc.svg
+   ```
+3. Run the app: `flutter run`
 
-This project is a starting point for a Flutter application.
+## Testing
+- Run all tests with: `flutter test`
 
-A few resources to get you started if this is your first Flutter project:
+---
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+**Directory App** is designed for maintainability, scalability, and clean code. Contributions and suggestions are welcome!
