@@ -1,0 +1,20 @@
+{
+  "directory": {
+    "plantations": 100,
+    "collection_points": 1500,
+    "transport": 65,
+    "delivery_orders": 98
+  },
+  "transactions": [
+    {
+      "date": {
+        "month": "Jan",
+        "day": 19
+      },
+      "main_user": "Fathur Nugroho",
+      "secondary_user": "Eric Vincent",
+      "weight_kg": 125.00,
+      "status": "approved"
+    }
+  ]
+} 
